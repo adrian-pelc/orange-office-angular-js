@@ -1,0 +1,7 @@
+<md-list>
+  <md-list-item md-ink-ripple="true"
+                ng-repeat="mail in mails.mails.mails">
+    <a class="ripple" ui-sref="mails.details({id:mail.id})">{{mail.subject}}</a>
+  </md-list-item>
+</md-list>
+

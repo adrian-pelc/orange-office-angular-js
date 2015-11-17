@@ -1,0 +1,17 @@
+{
+  "contacts" :
+    [
+      {
+        "id" : "123",
+        "firstName" : "Asdf",
+        "lastName" : "Zxcv",
+        "img" : "someimg.png"
+      },
+      {
+        "id" : "124",
+        "firstName" : "Qwer",
+        "lastName" : "Tyuiop",
+        "img" : null
+      }
+    ]
+}

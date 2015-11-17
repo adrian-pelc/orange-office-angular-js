@@ -1,0 +1,26 @@
+<div layout="vertical" layout-fill>
+
+  <div class="container">
+    <div class="header">
+      <header>
+        <acme-navbar creation-date="main.creationDate"></acme-navbar>
+      </header>
+    </div>
+    <div class="content">
+
+      <div class="menu">
+        <md-sidenav md-component-id="left" class="md-sidenav-left" md-is-open="true" md-is-locked-open="true">
+          <md-list>
+            <md-list-item md-ink-ripple="true"><a class="ripple" ui-sref="mails">maile</a></md-list-item>
+            <md-list-item md-ink-ripple="true" ><a class="ripple" ui-sref="contacts">kontakty</a></md-list-item>
+            <md-list-item md-ink-ripple="true"><a class="ripple" ui-sref="drive">dysk</a></md-list-item>
+          </md-list>
+        </md-sidenav>
+      </div>
+      <div class="list-view" ui-view="mainList"></div>
+      <div class="details" ui-view="detailsList"></div>
+    </div>
+
+  </div>
+
+</div>

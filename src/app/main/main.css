@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  background-color: #0b97c4;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  background-color: #FF6600;
+
+
+}
+.content > div {
+  padding: 10px;
+}
+.details {
+  flex: 1;
+}
+
+.ripple
+{
+  color: #333333;
+  text-decoration: none;
+  width:100%;
+}

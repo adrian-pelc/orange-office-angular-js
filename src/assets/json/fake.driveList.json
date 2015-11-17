@@ -1,0 +1,28 @@
+{
+  "folders" :
+    [
+      {
+        "id" : "123",
+        "name" : "Foo1"
+      },
+      {
+        "id" : "124",
+        "name" : "Foo2"
+      }
+    ],
+  "files" :
+    [
+      {
+        "id" : "11111",
+        "name" : "foo.png",
+        "mime" : "image/png",
+        "size" : "15555"
+      },
+      {
+        "id" : "11112",
+        "name" : "foo.txt",
+        "mime" : "text/plain",
+        "size" : "1234"
+      }
+    ]
+}
