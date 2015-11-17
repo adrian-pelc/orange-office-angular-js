@@ -1,4 +1,11 @@
-<div>
-
-  {{mailDetails}}
+<div style="padding: 10px;">
+  <p><b>Do: </b>{{mailDetails.mail.to}}</p>
+  <p ng-if="mailDetails.mail.cc.length > 0">
+    <b>Dw: </b>
+    <span ng-repeat="ccEntry in mailDetails.mail.cc">{{ccEntry}}, </span>
+  </p>
+  <p><b>Temat: </b>{{mailDetails.mail.subject}}</p>
+  <p>{{mailDetails.mail.content}}</p>
+  <md-button class="md-raised">Odpowiedz</md-button>
+  <md-button class="md-raised">Odpowiedz wszystkim</md-button>
 </div>

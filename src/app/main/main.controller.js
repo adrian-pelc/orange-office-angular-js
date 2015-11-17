@@ -8,5 +8,8 @@
   /** @ngInject */
   function MainController($scope) {
     //var vm = this;
+    $scope.search = function(){
+
+    }
   }
 })();

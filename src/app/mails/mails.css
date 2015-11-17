@@ -1,0 +1,24 @@
+.mail-item-container {
+  border-bottom: 1px solid #333333;
+  padding: 10px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  width: 100%;
+}
+
+.mail-item-header {
+  display: flex;
+  align-items: center;
+}
+
+.mail-item-from {
+  padding: 5px;
+  margin: 0;
+  flex: 1;
+}
+
+.mail-item-selected
+{
+  background-color: #FFFFFF;
+}

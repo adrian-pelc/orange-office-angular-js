@@ -1,7 +1,22 @@
-<md-list>
-  <md-list-item md-ink-ripple="true"
-                ng-repeat="mail in mails.mails.mails">
-    <a class="ripple" ui-sref="mails.details({id:mail.id})">{{mail.subject}}</a>
-  </md-list-item>
-</md-list>
+<div>
+  <md-list>
+    <md-list-item md-ink-ripple="true" style="padding: 0;"
+                  ng-repeat="mail in mails.mails.mails | filter:main.query | orderBy:'-date' | MailsPagination:mails.mailsPerPage:mails.currentPage">
+      <div class="mail-item-container" ui-sref="mails.details({id:mail.id})" ng-click="mails.onSelect(mail)"
+           ng-class="mail.selected">
+        <div class="mail-item-header">
+          <span class="mail-item-from"><b>Od: </b>{{mail.from}}</span>
+          <span>{{mail.date}}</span>
+        </div>
+        <p><b>{{mail.subject}}</b>{{ ": " + mail.lead}}</p>
+      </div>
 
+    </md-list-item>
+  </md-list>
+
+  <div style="display: flex; align-items: center">
+    <md-button ng-disabled="!mails.canChangePage(-1)" ng-click="mails.onPage(-1)" style="flex: 1" class="md-raised">&lt;</md-button>
+    <span>{{mails.currentPage + 1}}</span>
+    <md-button ng-disabled="!mails.canChangePage(1)" ng-click="mails.onPage(1)" style="flex: 1" class="md-raised">&gt;</md-button>
+  </div>
+</div>

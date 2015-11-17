@@ -16,7 +16,6 @@
         if (mail.id === $stateParams.id)
         {
           $scope.mailDetails.mail = mail;
-          console.log($scope);
           return;
         }
       }

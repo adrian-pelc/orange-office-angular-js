@@ -3,20 +3,104 @@
   [
     {
       "id" : "1",
-      "from" : "a@b.c",
-      "to" : "d@e.f",
+      "from" : "aaa@asd.pl",
+      "to" : "ja@orange.com",
+      "cc" : [],
       "date" : "2015-10-10 11:11:11",
       "subject" : "test subject",
       "lead" : "some content... some content... some content... some content... some content... ",
+      "content" : "full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, ",
       "img" : "someimg.png"
     },
     {
       "id" : "2",
       "from" : "asd@asd.asd",
-      "to" : "d@e.f",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "foo@foo.pl"],
       "date" : "2015-10-10 11:16:11",
       "subject" : "test subject 234",
-      "lead" : "some OTHER content... some content... some content... some content... some content... "
+      "lead" : "some OTHER content... some content... some content... some content... some content... ",
+      "content" : "OTHER full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, full mail content, "
+    },
+    {
+      "id" : "4",
+      "from" : "erw@asd.asd",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "ddd@foo.pl"],
+      "date" : "2015-10-10 11:13:11",
+      "subject" : "some mail",
+      "lead" : "qweee",
+      "content" : "short mail"
+    },
+    {
+      "id" : "5",
+      "from" : "erw@asd.asd",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "ddd@foo.pl"],
+      "date" : "2015-10-10 11:13:11",
+      "subject" : "some mail",
+      "lead" : "qweee",
+      "content" : "short mail"
+    },
+    {
+      "id" : "22",
+      "from" : "erw@asd.asd",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "ddd@foo.pl"],
+      "date" : "2015-10-10 11:13:11",
+      "subject" : "some mail",
+      "lead" : "qweee",
+      "content" : "short mail"
+    },
+    {
+      "id" : "44",
+      "from" : "erw@asd.asd",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "ddd@foo.pl"],
+      "date" : "2015-10-10 11:13:11",
+      "subject" : "some mail",
+      "lead" : "qweee",
+      "content" : "short mail"
+    },
+    {
+      "id" : "55",
+      "from" : "erw@asd.asd",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "ddd@foo.pl"],
+      "date" : "2015-10-10 11:13:11",
+      "subject" : "some mail",
+      "lead" : "qweee",
+      "content" : "short mail"
+    },
+    {
+      "id" : "65",
+      "from" : "erw@asd.asd",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "ddd@foo.pl"],
+      "date" : "2015-10-10 11:13:11",
+      "subject" : "some mail",
+      "lead" : "qweee",
+      "content" : "short mail"
+    },
+    {
+      "id" : "47",
+      "from" : "erw@asd.asd",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "ddd@foo.pl"],
+      "date" : "2015-10-10 11:13:11",
+      "subject" : "some mail",
+      "lead" : "qweee",
+      "content" : "short mail"
+    },
+    {
+      "id" : "54",
+      "from" : "erw@asd.asd",
+      "to" : "ja@orange.com",
+      "cc" : ["asdf@ghjk.ooo", "ddd@foo.pl"],
+      "date" : "2015-10-10 11:13:11",
+      "subject" : "some mail",
+      "lead" : "qweee",
+      "content" : "short mail"
     }
   ]
 }

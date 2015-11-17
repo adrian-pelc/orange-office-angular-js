@@ -1,0 +1,7 @@
+<md-list>
+  <md-list-item md-ink-ripple="true"
+                ng-repeat="contact in contacts.contacts.contacts">
+    <a class="ripple" ui-sref="contacts.details({id:contact.id})">{{contact.firstName + " " + contact.lastName}}</a>
+  </md-list-item>
+</md-list>
+

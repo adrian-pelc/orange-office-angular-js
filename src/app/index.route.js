@@ -21,12 +21,32 @@ angular
         })
         .state('mails.details', {
           url: '/:id',
-          parent: 'mails',
           views: {
             'detailsList@home': {
               templateUrl: 'app/mailDetails/mailDetails.html',
               controller: 'MailDetailsController',
               controllerAs: 'mailDetails'
+            }
+          }
+        })
+        .state('contacts', {
+          url: 'contacts',
+          parent: 'home',
+          views: {
+            'mainList': {
+              templateUrl: 'app/contacts/contacts.html',
+              controller: 'ContactsController',
+              controllerAs: 'contacts'
+            }
+          }
+        })
+        .state('contacts.details', {
+          url: '/:id',
+          views: {
+            'detailsList@home': {
+              templateUrl: 'app/contactDetails/contactDetails.html',
+              controller: 'ContactDetailsController',
+              controllerAs: 'contactDetails'
             }
           }
         });

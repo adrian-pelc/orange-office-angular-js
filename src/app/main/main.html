@@ -3,7 +3,15 @@
   <div class="container">
     <div class="header">
       <header>
-        <acme-navbar creation-date="main.creationDate"></acme-navbar>
+        <md-toolbar>
+          <section class="navbar">
+            <md-text-float class="navbar-title">Orange Office</md-text-float>
+            <md-input-container >
+              <label style="color: white">Wyszukaj</label>
+              <input ng-model="main.query" style="color: white" type="text"/>
+            </md-input-container>
+          </section>
+        </md-toolbar>
       </header>
     </div>
     <div class="content">
@@ -11,9 +19,9 @@
       <div class="menu">
         <md-sidenav md-component-id="left" class="md-sidenav-left" md-is-open="true" md-is-locked-open="true">
           <md-list>
-            <md-list-item md-ink-ripple="true"><a class="ripple" ui-sref="mails">maile</a></md-list-item>
-            <md-list-item md-ink-ripple="true" ><a class="ripple" ui-sref="contacts">kontakty</a></md-list-item>
-            <md-list-item md-ink-ripple="true"><a class="ripple" ui-sref="drive">dysk</a></md-list-item>
+            <md-button class="ripple" ui-sref="mails">maile</md-button>
+            <md-button class="ripple" ui-sref="contacts">kontakty</md-button>
+            <md-button class="ripple">dysk</md-button>
           </md-list>
         </md-sidenav>
       </div>

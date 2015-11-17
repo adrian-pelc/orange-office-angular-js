@@ -1,10 +1,11 @@
-<md-toolbar layout="row" layout-align="center center">
-
-  <md-button href="https://github.com/Swiip/generator-gulp-angular">Gulp Angular</md-button>
-
-  <section flex layout="row" layout-align="left center">
-    <md-button href="#" class="md-raised">qweqw</md-button>
+<md-toolbar>
+  <section class="navbar">
+    <md-text-float class="navbar-title">Orange Office</md-text-float>
+    <md-input-container >
+      <label style="color: white">Wyszukaj</label>
+      <input ng-model="main.query" style="color: white" type="text"/>
+    </md-input-container><!--<md-button href="#" class="md-raised search-button">qweqw</md-button>-->
   </section>
-
-
 </md-toolbar>
+
+{{searchValue}}
